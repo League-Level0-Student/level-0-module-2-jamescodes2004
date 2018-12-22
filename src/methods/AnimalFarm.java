@@ -16,8 +16,13 @@ public class AnimalFarm {
 		/*
 		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
-		
+		int animalsound = JOptionPane.showOptionDialog(null, "What mood are you in?", "Pop-up Title", 0,
+				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Duck", "Cow", "Wolf", "Cat", "LLama" }, null);
 		/* 2. Make it so that the user can keep entering new animals. */
+		if (animalsound==1) {
+			
+		}
+		
 	}
 
 	void playMoo() {
