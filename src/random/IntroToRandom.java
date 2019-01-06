@@ -8,7 +8,7 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
-		int r = 0;
+		int r = randomChoice;
 		
 		//3. Now make r random. 
 		//   Create an object of the Random class
